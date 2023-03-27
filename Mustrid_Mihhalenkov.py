@@ -53,3 +53,12 @@ r2.grid(row=2, column=0)
 r3.grid(row=3, column=0)
 
 aken.mainloop()
+#for i in range(8):
+#    for j in range(8):
+#        x1 = i * square_size
+#        y1 = j * square_size + y_offset  # добавляем y_offset к координате y
+#        if (i + j) % 2 == 0:
+#            color = "white"
+#        else:
+#            color = "black"
+#        square = tahvel.create_rectangle(x1, y1, x1 + square_size, y1 + square_size, fill=color)
